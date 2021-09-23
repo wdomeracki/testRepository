@@ -1,0 +1,18 @@
+<script>
+    let a = Number(prompt("Podaj dlugosc a", ""));
+    let b = Number(prompt("Podaj dlugosc b", ""));
+    let c = Number(prompt("Podaj dlugosc c", ""));
+
+    if(a==b && b==c)
+    {
+        document.write("Jest równoboczny");
+    }
+    else if(a==b || b==c || a==c)
+    {
+        document.write("Jest równoramienny");
+    }
+    else 
+    {
+        document.write("Jest różnoboczny");
+    }
+</script>
